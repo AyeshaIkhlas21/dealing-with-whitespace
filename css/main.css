@@ -1,8 +1,6 @@
 html {
   box-sizing: border-box;
   font-family: "Crimson Text", serif;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 *, *::before, *::after {
@@ -31,8 +29,6 @@ border-sizes 2px;
 
 article {
   font-size: 1.125rem;
-  font-weight: normal;
-  border: 2px;
 }
 
 article header {
@@ -41,6 +37,8 @@ article header {
 
 article h1 {
   font-size: 1em;
+  font-weight: lighter;
+  line-height: 1.3;
 }
 
 article header p {
@@ -56,8 +54,7 @@ article p {
 }
 
 body {
-  margin: 1em;
-  font-weight: normal;
+  font-family: "Crimson Text", serif;
 }
 
 blockquote {
@@ -65,6 +62,8 @@ blockquote {
   color: #999;
   font-family: "Crimson Text", serif;
   font-style: normal;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .quote {
