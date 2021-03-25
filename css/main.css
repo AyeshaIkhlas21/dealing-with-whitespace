@@ -32,14 +32,9 @@ article {
 
 article header {
   font-size: 1.5rem;
-  padding: 0;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 1.3;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  padding-top: 0;
+  line-height: 1.8;
 }
 
 article h1 {
@@ -52,10 +47,10 @@ article h1 {
 article header p {
   font-style: italic;
   font-size: 1rem;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: -5px;
+  margin-bottom: 1em;
   border-bottom: 1px solid;
-  padding-bottom: 1em;
+  padding-bottom: 1.2em;
   border-color: #555;
 }
 
@@ -64,7 +59,7 @@ article p {
   font-size: 1rem;
   color: #222;
   line-height: 1.3;
-  padding-top: 0;
+  padding-top: 2px;
 }
 
 body {
@@ -72,10 +67,12 @@ body {
   margin: 0;
   padding: 1rem;
   font-size: 1.125rem;
+  line-height: 1.5;
+  margin-top: 0;
 }
 
 blockquote {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   color: #555;
   font-family: "Crimson Text", serif;
   font-style: normal;
